@@ -14,7 +14,7 @@ int instr_trans(char *op, char *args, char* mcode)
 	ptr1 = strtok(args,",");
 	ptr2 = strtok(NULL,"\n");
 
-	if(prtr1[0] == '%'){
+	if(ptr1[0] == '%'){
 	 	if(ptr2[0] == '%'){
 	 		strcpy(mcode,"89");
 		}

@@ -7,4 +7,4 @@ trans.o : trans.c
 check.o : check.c
 	gcc -c -o check.o check.c
 clean :
-	rm *.o myas
+	rm -f main.o trans.o check.o myas
